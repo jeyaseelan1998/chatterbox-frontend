@@ -1,0 +1,23 @@
+.empty-chatbox-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.smile-emoji {
+    font-size: 65px;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .empty-chatbox-container > h2 {
+        font-size: 20px;
+    }
+
+.smile-emoji {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+}

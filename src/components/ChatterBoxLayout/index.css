@@ -1,0 +1,23 @@
+.chatterbox-container {
+    background-color: bisque;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    min-width: 300px;
+    padding: 15px;
+}
+
+@media screen and (min-width: 576px) {
+    .chatterbox-container {
+        grid-template-rows: 1fr;
+        grid-template-columns: 45% 55%;
+        padding: 50px 25px;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .chatterbox-container {
+        grid-template-columns: 35% 65%;
+        padding: 50px 95px;
+    }
+}

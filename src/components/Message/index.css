@@ -1,0 +1,31 @@
+.message-container {
+    list-style-type: none;
+    margin-bottom: 8px;
+    width: 80%;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+}
+
+.my-message {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 0;
+    background-color: #09ff6f30;
+    margin-left: auto;
+}
+
+.message-container > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-container > div > h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.message-container > p {
+    margin-top: 8px;
+    font-size: 16px;
+}

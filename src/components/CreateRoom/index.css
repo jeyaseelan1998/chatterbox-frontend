@@ -1,0 +1,31 @@
+.create-room-container {
+    display: flex;
+    margin: 8px 0;
+}
+
+.create-room-container > input {
+    flex: 1;
+    min-width: 45px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.create-room-container > input::placeholder {
+    font-size: 12px;
+}
+
+.create-room-container > button {
+    background-color: transparent;
+    padding: 0 9px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.add-icon {
+    font-size: 25px;
+}

@@ -1,0 +1,90 @@
+.chatbox-container {
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 576px) {
+    .chatbox-container {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 12px;
+    }
+}
+
+.chatbox-header {
+    border-bottom: 1px solid #11111125;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.chatbox-header-info {
+    flex: 1;
+}
+
+.chatbox-header h3 {
+    font-weight: 600;
+}
+
+.group-icon {
+    font-size: 55px;
+    margin-right: 10px;
+}
+
+.chatbox-header > button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.vertical-dot {
+    font-size: 25px;
+}
+
+.chatbox-body {
+    flex: 1;
+    padding: 8px 8px 0;
+    position: relative;
+    overflow: auto;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.chatbox-body ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .chatbox-body  {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.chatbox-footer {
+    height: 35px;
+    display: flex;
+    margin-top: 5px;
+    border-top: 1px solid #111111;
+}
+
+.chatbox-footer > input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+.chatbox-footer > button {
+    padding: 0 15px;
+    background-color: teal;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
