@@ -27,6 +27,12 @@
     border-bottom: 1px solid #11111125;
 }
 
+.avatar-link {
+    color: black;
+    text-decoration: none;
+}
+
+
 .self-avatar {
     width: 35px;
     height: 35px;

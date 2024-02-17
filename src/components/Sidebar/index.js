@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { FaUserLarge } from "react-icons/fa6";
 import Cookies from 'js-cookie';
-import { useParams} from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 import CreateRoom from '../CreateRoom';
 import ChatRoomItem from '../ChatRoomItem';
@@ -28,7 +28,9 @@ const Sidebar = () => {
   return (
     <div className='sidebar-container'>
       <div className='sidebar-header'>
-        <FaUserLarge className='self-avatar' />
+        <Link className='avatar-link' to="/">
+          <FaUserLarge className='self-avatar' />
+        </Link>
         <div className='sidebar-header-info'>
           <h2>{username}</h2>
           <p>online</p>

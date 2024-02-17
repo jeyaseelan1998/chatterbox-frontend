@@ -25,7 +25,7 @@ const CreateRoom = () => {
   return (
     <form className='create-room-container' onSubmit={onCreateRoom}>
       <input value={roomName} onChange={onChageRoomName} placeholder='Create room...' />
-      <button type='button' title='create room'>
+      <button type='submit' title='create room'>
         <MdOutlineAddCircle className='add-icon' />
       </button>
     </form>
